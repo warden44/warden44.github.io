@@ -38,7 +38,7 @@ const angle = Math.PI * 2 * spread;
 function drawLine(level) {
   if (level > maxLevel) return;
 
-  ctx.strokeStyle = gradient;
+  ctx.strokeStyle = red;
   //   ctx.strokeStyle = "#FF9944";
   ctx.lineWidth = 2;
   ctx.beginPath();
