@@ -9,7 +9,18 @@
 </head>
 <body>
     <canvas id="canvas1"></canvas>
-    <script src="script.js"></script>
-    <button id="newFractal" onclick="window.location.reload()" >New Fractal</button>
+    <script src="fractal.js"></script>
+
+    <button id="loadFractal" onclick="loadFractal()">New Fractal</button>
+    <label for="maxLevelInput">Enter Max Level:</label>
+    <input type="number" id="maxLevelInput" max="5">
+    <script>
+        // Define a function in the HTML file to execute the function from the JavaScript file
+        function loadFractal() {
+            // Call the function defined in the JavaScript file
+            genFractal();
+        }
+    </script>
+    
 </body>
 </html>
